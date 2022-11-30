@@ -1,6 +1,6 @@
 {
   "name": "badly-typed-package",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A package with a typing problem",
   "main": "index.js",
   "types": "index.d.ts",
