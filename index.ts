@@ -1,4 +1,4 @@
-export function getIsoDate(arg: number | string | Date | null): string {
+export function getIsoDate(arg?: number | string | Date): string {
   if (typeof arg === 'number') {
     return new Date(arg).toISOString();
   }
@@ -14,7 +14,7 @@ export function getIsoDate(arg: number | string | Date | null): string {
   if (arg instanceof Date) {
     return arg.toISOString();
   }
-  if (arg === null) {
+  if (arg === undefined) {
     return new Date().toISOString();
   }
 
