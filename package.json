@@ -1,0 +1,17 @@
+{
+  "name": "badly-typed-package",
+  "version": "0.0.1",
+  "description": "A package with a typing problem",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "files": ["index.js", "index.d.ts"],
+  "scripts": {
+    "build": "tsc"
+  },
+  "author": "Raphaël Dhôte",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^4.9.3"
+  },
+  "private": false
+}
